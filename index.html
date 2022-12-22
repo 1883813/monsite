@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: burlywood;
+
+        }
+
+        form{
+            background-color: antiquewhite;
+            width: 40%;
+            border-radius: 4px;
+            margin-left: 25%;
+            text-align: center;
+        }
+
+        #bouton{background-color: aquamarine;
+        
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <form action="">
+            <h1>Générateur de mot de passe</h1>
+            <legend>Cliquez sur le bouton 'Générer' pour générer un mod de passe
+            <label for="number">Nombre de caractères</label>
+            <input type='number' id="value">
+            <input onclick="generer_mot_de_passe(valeur)" type="button" value="Générer" id="bouton">
+        </legend>
+        </form>
+    </main>
+    <script src="générateurmdp.js"></script>
+</body>
+</html>
