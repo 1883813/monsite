@@ -1,0 +1,50 @@
+h3{
+    color: goldenrod;
+    text-align: center;
+}
+h1{
+    color: white;
+    text-align: center;
+    border-bottom: solid white 1px;
+    padding-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h2{
+    color: goldenrod;
+    text-align: center;
+    border-bottom: solid white 1px;
+    padding-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+ul{
+    color: white;
+    margin-left: 30%;
+    font-size: larger;
+}
+p{
+    text-align: center;
+    color: white;
+}
+
+footer{
+    position:  absolute;
+    bottom: 0%;
+    margin-left: 20%;
+    text-align: center;
+    
+}
+
+body{
+    margin-left: 25%;
+    margin-right: 25%;
+    background-image: url('image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 850px
+    
+    
+}
